@@ -135,7 +135,7 @@ body {
 
 .hero{
     background-image: url("./img/hero.jpg");
-    background-size: center;
+    background-size: cover;
     background-position: top 5% center;
     box-sizing: border-box;
     padding: 0 80px;
