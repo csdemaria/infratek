@@ -134,7 +134,7 @@ body {
 /* hero */
 
 .hero{
-    background-image: url("img/hero.jpg");
+    background-image: url("../img/hero.jpg");
     background-size: center;
     background-position: top 5% center;
     box-sizing: border-box;
