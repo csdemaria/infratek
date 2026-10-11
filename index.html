@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Talento Tech Frontend</title>
+    <title>Infratek</title>
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,10 +47,17 @@
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h4>Bienvenido a Nuestra Tienda</h4>
-                <h2>Explora Nuestra Colección de Productos</h2>
-                <p>Descubre una amplia variedad de productos de alta calidad que se adaptan a tus necesidades y estilo de vida. Desde tecnología hasta moda, tenemos todo lo que buscas.</p>
-                <button class="hero-button">Explorar Productos</button>
+                <h4>Bienvenido a Infratek</h4>
+                <h2>Explora nuestra página</h2>
+                <p>Servicios de infraestructura tecnológica</p>
+
+                <button class="hero-button" id="contactBtn">Contáctanos</button>
+                <script>
+                document.getElementById("contactBtn").addEventListener("click", function() {
+                window.location.href = "../pages/contacto.html";
+                });
+                </script>
+
             </div>
         </section>
     
@@ -59,7 +66,7 @@
     
 
     <footer class="footer">
-        <h4>Talento Tech Frontend</h4>
+        <h4>Infratek 2026</h4>
         <p>Realizado por: Celeste Demaria</p>
     </footer>
 
